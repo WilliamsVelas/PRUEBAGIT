@@ -1,0 +1,25 @@
+<ion-grid class="gridPrincipal">
+  <ion-row>
+    <ion-col class="colImagenes" size="12" size-md="6" size-lg="1" size-xl="12">
+      <swiper-container class="swiperContainer"
+                        [slidesPerView]="6" [spaceBetween] = "15">
+
+        <swiper-slide class="swiperSlidePoster"
+                      *ngFor="let pelicula of peliculasRecientesPoster">
+    
+          <ion-card class="card"
+                    (click)="verDetalle( pelicula.id )">
+            <img  class="poster"
+                  [src]="pelicula.poster_path | imagen"
+                  class="float-left">
+          </ion-card>
+    
+        </swiper-slide>
+    
+    </swiper-container>
+    </ion-col>
+
+  </ion-row>
+</ion-grid>
+
+

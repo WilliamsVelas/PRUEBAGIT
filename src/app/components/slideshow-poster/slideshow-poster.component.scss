@@ -1,0 +1,58 @@
+//for al sizes
+
+.swiperContainer{
+
+        height: 260px;
+        width: 1350px;
+        max-width: 1350px;
+        max-height: 260px;
+
+}
+
+//for GM size
+
+@media screen and (max-width: 768px){
+.card{
+        max-width: 180px;
+        max-height: 260px;
+        display: grid;
+        grid-template-columns: 180px 1fr;  
+}
+
+.poster{
+        height: 260px;
+        width: 220px;
+}
+
+.swiperSlidePoster{
+        max-width: 180px;
+        max-height: 260px;
+}
+}
+
+
+//for XL size
+@media screen and ((max-width: 1200px) and (min-width: 900px) ){
+.card{
+        max-width: 350px;
+        max-height: 780px;
+        display: grid;
+        grid-template-columns: 350px 1fr ;
+}
+
+.poster{
+        height: 480px;
+        width: 200px;
+}
+
+.colImagenes{
+        display: grid;
+        align-content: center;
+        padding-right: 75px;
+}
+
+.gridPrincipal{
+        padding-left: 100px;
+}
+
+}

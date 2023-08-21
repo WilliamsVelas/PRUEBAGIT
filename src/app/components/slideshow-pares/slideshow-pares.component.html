@@ -1,0 +1,37 @@
+<ion-grid>
+  <ion-row class="rowClass">
+    <ion-col >
+      <swiper-container [slidesPerView]="3.4" [spaceBetween] = "">
+
+        <swiper-slide   
+                        class="swiperSlidePoster"
+                        *ngFor="let pares of peliculasRecientesPoster | pares">
+      
+          <ion-row >
+            <ion-col  size="12" size-xl="6"
+                      class="colImagenes"
+                      *ngFor="let peliculasRecientesPoster of pares">
+              <ion-card class="card"
+                        (click)="verDetalle( peliculasRecientesPoster.id )">
+                <img  class="poster"
+                      [src]="peliculasRecientesPoster.imgPosterP"
+                      class="float-left">
+              </ion-card>
+            </ion-col>
+          </ion-row>
+        </swiper-slide>
+      
+        <swiper-slide class="swipper-mas">
+          <ion-button expand="full"
+                      class="btn-mas"
+                      size="large"
+                      (click)="onClick()">
+              <ion-icon slot="icon-only"
+                        name="add"></ion-icon>
+          </ion-button>
+        </swiper-slide>
+      
+      </swiper-container>
+    </ion-col>
+  </ion-row>
+</ion-grid>

@@ -1,0 +1,43 @@
+.poster-detalle-sobre{
+    
+    top: -100px;
+    left: -6px;
+    margin-bottom: -75px;
+}
+
+.titulo{
+    width: 150%;
+    position: absolute;
+    color: rgb(255, 255, 255);
+    padding: 5px 5px 40px 5px;
+
+
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#000000+1,000000+98,000000+100&0.65+56,0.65+62,0+100 */
+    background: -moz-linear-gradient(top, rgba(0,0,0,1) 2%, rgba(0,0,0,1) 14%, rgba(0,0,0,0.65) 86%, rgba(0,0,0,0.1) 96%, rgba(0,0,0,0.05) 98%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(0,0,0,1) 2%,rgba(0,0,0,1) 14%,rgba(0,0,0,0.65) 86%,rgba(0,0,0,0.1) 96%,rgba(0,0,0,0.05) 98%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(0,0,0,1) 2%,rgba(0,0,0,1) 14%,rgba(0,0,0,0.65) 86%,rgba(0,0,0,0.1) 96%,rgba(0,0,0,0.05) 98%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+    
+
+}
+
+.titulo h1{
+    position: absolute;
+    top: 8px;
+    left: 8px;
+}
+
+.card-actor{
+    height: 210px;
+}
+
+.actor-name{
+    position: relative;
+    top: 15px;
+}
+
+h2{
+    color: aliceblue;
+    bottom: 1px;
+    top: 5%;
+}

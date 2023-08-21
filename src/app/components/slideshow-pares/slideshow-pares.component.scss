@@ -1,0 +1,76 @@
+//all sizes
+
+.swipper-mas{
+        height: 300px;
+        padding: 20px;
+}
+
+.btn-mas{
+        position: relative;
+        top: 53%;
+}
+
+// .iamgenPares{
+//     padding-left: 10px;
+//     padding-right: 10px;
+// }
+
+//for GM size
+
+@media screen and (max-width:768px ){
+.card{
+        max-width: 180px;
+        max-height: 260px;
+        display: grid;
+        grid-template-columns: 180px 1fr;  
+}
+.poster{
+        height: 260px;
+        width: 220px;
+}
+.swiperSlidePoster{
+        max-width: 180px;
+        max-height: 260px;
+}
+}
+
+
+//for XL size
+@media screen and ((max-width:1200px) and (min-width:900px) ){
+.card{
+        max-width: 350px;
+        max-height: 780px;
+        display: grid;
+        grid-template-columns: 350px 1fr 1fr ;
+}
+
+.poster{
+        height: 480px;
+        width: 200px;
+}
+
+.colImagenes{
+        display: grid;
+        align-content: center;
+        padding-right: 75px;
+}
+
+.rowClass{
+        max-width: 280px;
+        max-height: 280px;
+}
+.swiperSlidePoster{
+        max-width: 300px;
+        max-height: 300px;
+}
+.btn-mas{
+        position: relative;
+        top: 53%;
+        padding-left: 20%;
+        padding-right: 20%;
+}
+    // .gridPrincipal{
+    //         padding-left: 100px;
+    // }
+
+}
