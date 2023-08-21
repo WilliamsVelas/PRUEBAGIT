@@ -58,7 +58,7 @@ export class Tab1Page implements OnInit {
 
   cargarMas() {
     this.getPopulares();
-    // console.log('peoooo');
+    console.log('peoooo');
   }
 
   getPopulares() { 
