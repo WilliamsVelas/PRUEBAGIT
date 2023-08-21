@@ -58,12 +58,13 @@ export class Tab1Page implements OnInit {
 
   cargarMas() {
     this.getPopulares();
-    // console.log('peoooo');
+    console.log('peoooo');
+    console.log('SIS SE CARGO NENE');
   }
 
   getPopulares() { 
     this.moviesService.getPopulares().subscribe( ( resp: any) =>{
-      // console.log( 'Popularesdddd', resp );
+      console.log( 'Popularesdddd', resp );
       this.populares = resp.results;
     } )
   }
